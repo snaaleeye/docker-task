@@ -28,7 +28,8 @@ const MainComponent = () => {
 
   useEffect(() => {
     getAllNumbers();
-  }, []);
+    // eslint-disable-next-line
+}, []);
 
   return (
     <div>
